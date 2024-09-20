@@ -1,0 +1,120 @@
+.count{
+    background-color: burlywood;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+.countplay{
+    font-size: 50px;
+}
+.countbutton{
+    background-color: rgb(198, 43, 0);
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.countbutton:hover{
+    background-color: rgba(162, 37, 3, 0.872);
+}
+
+
+/* Color Picker */
+
+.color-picker{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.color-display{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid hsl(0, 0%, 80%);
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: 0.25s ease;
+}
+.color-picker p{
+    color: hsl(0, 0%, 20%);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+}
+input[type="color"]{
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid hsl(0, 0%, 80%);
+}
+
+.to-do-list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.move-button, .add-button, .delete-button{
+    font-size: 1.0rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.add-button{
+    background-color: rgb(36, 189, 36);
+}
+.add-button:hover{
+    background-color: rgb(30, 162, 30);
+}
+.delete-button{
+    background-color: rgb(230, 3, 3);
+}
+.delete-button:hover{
+    background-color: rgb(187, 0, 0);
+}
+.move-button{
+    background-color: rgb(39, 155, 201);
+}
+.move-button:hover{
+    background-color: rgb(24, 108, 142);
+}
+input[type="text"]{
+    font-size: 0.9rem;
+    padding: 10px;
+    border: 2px solid rgb(205, 204, 204);
+    border-radius: 5px;
+    color: rgb(188, 188, 188);
+}
+ol{
+    padding: 0;
+}
+ol li{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: rgb(225, 225, 225);
+    margin-bottom: 10px;
+    border: 3px solid aliceblue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex: 1;
+}
+.delete-button, .move-button{
+    padding: 8px 12px;
+    font-size: 1.0rem;
+    margin-top: 10px;
+    margin-left: 5px;
+}
