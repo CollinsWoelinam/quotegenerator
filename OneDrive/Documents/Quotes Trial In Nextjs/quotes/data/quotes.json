@@ -1,0 +1,29 @@
+{
+    "quotes":[
+        {
+            "id": "1",
+            "quote": "Where we're going we don't need roads.",
+            "author": "Dr. Emmett Brown"
+        },
+        {
+            "id": "2",
+            "quote": "Yippie ki -yay, motherf*cker.",
+            "author": "John McClane"
+        },
+        {
+            "id": "3",
+            "quote": "You shall not pass!!",
+            "author": "Gandalf the Gray"
+        },
+        {
+            "id": "4",
+            "quote": "Frankly my dear, I don’t give a damn.",
+            "author": "Rhett Butler"
+        },
+        {
+            "id": "5",
+            "quote": "I have come here to chew bubblegum and kick as*... and I'm all out of bubblegum.",
+            "author": "Nada"
+        }
+    ]
+}
